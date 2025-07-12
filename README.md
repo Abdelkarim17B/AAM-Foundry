@@ -15,7 +15,7 @@ A comprehensive, production-ready decentralized exchange built with Foundry and 
 ### 📁 Project Structure
 
 ```
-SimpleDEX/
+AAM-foundry/
 ├── src/
 │   ├── core/
 │   │   └── SimpleDEX.sol           # Main DEX contract
@@ -44,7 +44,7 @@ SimpleDEX/
 ```bash
 # Clone the repository
 git clone https://github.com/Abdelkarim17B/AAM-Foundry.git
-cd SimpleDEX
+cd AAM-foundry
 
 # Install dependencies
 forge install
