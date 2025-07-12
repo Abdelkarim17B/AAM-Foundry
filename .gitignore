@@ -1,0 +1,60 @@
+# Build artifacts
+cache/
+out/
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Environment variables
+.env
+.env.local
+
+# Node modules (if using npm/yarn)
+node_modules/
+
+# Coverage reports
+coverage/
+lcov.info
+
+# Broadcast logs from deployments
+broadcast/
+
+# Foundry files
+!foundry.toml
+
+# OpenZeppelin library files we don't need to track
+lib/openzeppelin-contracts/docs/
+lib/openzeppelin-contracts/test/
+lib/openzeppelin-contracts/scripts/
+lib/openzeppelin-contracts/certora/
+lib/openzeppelin-contracts/hardhat/
+lib/openzeppelin-contracts/audits/
+lib/openzeppelin-contracts/.changeset/
+lib/openzeppelin-contracts/.codecov.yml
+lib/openzeppelin-contracts/.editorconfig
+lib/openzeppelin-contracts/.husky/
+lib/openzeppelin-contracts/.mocharc.js
+lib/openzeppelin-contracts/.prettierrc
+lib/openzeppelin-contracts/.solcover.js
+lib/openzeppelin-contracts/eslint.config.mjs
+lib/openzeppelin-contracts/fv-requirements.txt
+lib/openzeppelin-contracts/hardhat.config.js
+lib/openzeppelin-contracts/logo.svg
+lib/openzeppelin-contracts/netlify.toml
+lib/openzeppelin-contracts/package-lock.json
+lib/openzeppelin-contracts/package.json
+lib/openzeppelin-contracts/renovate.json
+lib/openzeppelin-contracts/slither.config.json
+lib/openzeppelin-contracts/solhint.config.js
+
+# Forge-std library files we don't need to track
+lib/forge-std/test/
+lib/forge-std/scripts/
